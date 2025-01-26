@@ -4,7 +4,7 @@ import random
 jackpot = random.randint(1, 100)
 
 # Take the first guess from the user
-guess = int(input("Chal Guess Kar: "))
+guess = int(input("Guess your number: "))
 counter = 1
 
 # Loop until the correct guess
